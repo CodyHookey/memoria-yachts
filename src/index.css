@@ -42,5 +42,13 @@ p {
 }
 
 .secondary-color {
-  color: #4e4d4d;
+  color: #4e4d4d !important;
+}
+
+.highlight-color {
+  color: #bca56e !important;
+}
+
+.section-tag {
+  border-bottom: 3px solid #bca56e;
 }
