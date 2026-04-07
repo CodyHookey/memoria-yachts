@@ -119,3 +119,47 @@
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("/card-four.webp") center/cover no-repeat;
 }
+
+// Destinations
+
+.custom-carousel {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.custom-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-group {
+  gap: 1em;
+  animation: spin 20s infinite linear;
+  padding-right: 1em;
+}
+
+.custom-carousel:hover .custom-group {
+  animation-play-state: paused;
+}
+
+.custom-card-scroll {
+  flex: 0 0 400px;
+  transition: 0.8s;
+  color: #fff;
+
+  p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.custom-card-scroll:hover {
+  transition: 0.8s;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
