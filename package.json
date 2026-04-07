@@ -19,6 +19,7 @@
     "motion": "^12.38.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "sass-embedded": "^1.90.0",
     "react-helmet-async": "^3.0.0",
     "react-router-dom": "^7.13.1",
     "vite-plugin-svgr": "^4.5.0"

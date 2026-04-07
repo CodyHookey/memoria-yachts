@@ -69,3 +69,53 @@
 .inner {
   border-radius: 1rem;
 }
+
+.custom-card {
+  height: 600px;
+  flex: 1;
+  transition: 0.3s;
+  h3 {
+    display: none;
+  }
+
+  p {
+    display: none;
+    transition: 0.3s;
+  }
+}
+
+.custom-card:hover {
+  flex: 3;
+  h3 {
+    display: block;
+  }
+
+  p {
+    display: block;
+    transition: 0.3s;
+  }
+}
+
+#card-one {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/card-one.webp") center/cover no-repeat;
+}
+
+#card-two {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/card-two.webp") center/cover no-repeat;
+}
+
+#card-three {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/card-three.webp") center/cover no-repeat;
+}
+
+#card-four {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/card-four.webp") center/cover no-repeat;
+}

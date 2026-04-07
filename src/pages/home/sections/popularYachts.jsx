@@ -97,7 +97,7 @@ class PopularYachts extends React.Component {
             );
           })}
         </div>
-        <button className="btn primary-bg text-white outer px-5 py-2 d-flex align-items-center justify-content-center mx-auto">
+        <button className="primary-btn outer px-5 py-2 d-flex align-items-center justify-content-center mx-auto">
           More Yachts <ArrowIcon width="31px" height="31px" />
         </button>
       </section>

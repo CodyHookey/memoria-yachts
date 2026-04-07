@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero-section"
-      className="container-fluid px-5 pb-5 d-none d-md-block"
+      className="container-fluid px-5 d-none d-md-block"
     >
       <div id="hero-image" className="outer p-5">
         <div className="h-100 d-flex align-items-center">

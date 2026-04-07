@@ -3,6 +3,8 @@ import Navbar from "../../components/navbar";
 import Hero from "./sections/heroSection";
 import About from "./sections/aboutSection";
 import PopularYachts from "./sections/popularYachts";
+import Experiences from "./sections/experiences";
+import Stats from "./sections/statSection";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <Hero />
       <About />
       <PopularYachts />
+      <Experiences />
+      <Stats />
     </>
   );
 };
