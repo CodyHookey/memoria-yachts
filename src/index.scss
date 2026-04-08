@@ -29,7 +29,8 @@ h3 {
   color: #2c2c2c;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: clamp(1.375rem, 1.3rem + 0.4vw, 1.5rem) !important;
   color: #2c2c2c;
 }

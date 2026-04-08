@@ -6,6 +6,7 @@ import PopularYachts from "./sections/popularYachts";
 import Experiences from "./sections/experiences";
 import Stats from "./sections/statSection";
 import Destination from "./sections/destinationSection";
+import Testimonials from "./sections/testimonials";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Experiences />
       <Stats />
       <Destination />
+      <Testimonials />
     </>
   );
 };

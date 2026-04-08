@@ -36,6 +36,7 @@ class Destination extends React.Component {
                     background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${d.image}) center/cover no-repeat`,
                     height: "545px",
                   }}
+                  key={d.name}
                 >
                   <p className="h2">{d.name}</p>
                 </div>
@@ -54,6 +55,7 @@ class Destination extends React.Component {
                     background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${d.image}) center/cover no-repeat`,
                     height: "545px",
                   }}
+                  key={d.name}
                 >
                   <p className="h2">{d.name}</p>
                 </div>
