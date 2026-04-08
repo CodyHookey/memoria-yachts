@@ -7,6 +7,7 @@ import Experiences from "./sections/experiences";
 import Stats from "./sections/statSection";
 import Destination from "./sections/destinationSection";
 import Testimonials from "./sections/testimonials";
+import CallToAction from "./sections/callToAction";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Stats />
       <Destination />
       <Testimonials />
+      <CallToAction />
     </>
   );
 };
