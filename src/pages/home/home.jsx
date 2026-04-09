@@ -8,6 +8,7 @@ import Stats from "./sections/statSection";
 import Destination from "./sections/destinationSection";
 import Testimonials from "./sections/testimonials";
 import CallToAction from "./sections/callToAction";
+import FAQ from "./sections/faq";
 import Footer from "../../components/footer";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
       <Destination />
       <Testimonials />
       <CallToAction />
+      <FAQ />
       <Footer />
     </>
   );

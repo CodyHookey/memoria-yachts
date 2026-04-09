@@ -28,11 +28,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto fw-bold">
             <li className="nav-item">
-              <a
-                className="nav-link me-5 primary-color"
-                aria-current="page"
-                href="#"
-              >
+              <a className="nav-link me-5 primary-color" href="#">
                 Home
               </a>
             </li>

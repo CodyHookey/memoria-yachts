@@ -76,6 +76,19 @@ p {
   background-color: #f9f9f9;
 }
 
+.hero-btn {
+  background-color: #fff;
+  color: #2c2c2c;
+  border: 1px solid #fff;
+  transition: 0.8s;
+}
+
+.hero-btn:hover {
+  background-color: #ffffff00;
+  color: #fff;
+  transition: 0.8s;
+}
+
 .secondary-btn {
   border: 1px solid #2c2c2c;
   background-color: white;

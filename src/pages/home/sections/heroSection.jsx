@@ -32,6 +32,9 @@ const Hero = () => {
                   style={{ background: "none", border: "none" }}
                 >
                   <option value="">Yacht Type</option>
+                  <option value="motor">Motor</option>
+                  <option value="sailing">Sailing</option>
+                  <option value="expedition">Expedition</option>
                 </select>
               </div>
               <div className="frosted-glass inner py-2 ps-2 pe-4 text-white rounded me-3">
@@ -42,6 +45,9 @@ const Hero = () => {
                   style={{ background: "none", border: "none" }}
                 >
                   <option value="">Cabins</option>
+                  <option value="1-15">1 to 15</option>
+                  <option value="15-25">15 to 25</option>
+                  <option value=">25">More than 25</option>
                 </select>
               </div>
               <div className="frosted-glass inner py-2 ps-2 pe-4 text-white rounded me-3">
@@ -52,19 +58,12 @@ const Hero = () => {
                   style={{ background: "none", border: "none" }}
                 >
                   <option value="">Length</option>
+                  <option value="30-50m">30 to 50 meters</option>
+                  <option value="50-80m">50 to 80 meters</option>
+                  <option value=">80m">More than 80 meters</option>
                 </select>
               </div>
-              <div className="frosted-glass inner py-2 ps-2 pe-4 text-white rounded me-3">
-                <select
-                  name="length"
-                  id=""
-                  className="text-white"
-                  style={{ background: "none", border: "none" }}
-                >
-                  <option value="">Price</option>
-                </select>
-              </div>
-              <button className="btn bg-white py-2 px-4 rounded d-flex justify-content-center align-items-center">
+              <button className="hero-btn py-2 px-4 rounded d-flex justify-content-center align-items-center">
                 Submit
                 <FontAwesomeIcon icon={faMagnifyingGlass} className="ms-2" />
               </button>
