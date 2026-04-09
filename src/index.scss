@@ -100,3 +100,16 @@ p {
   color: #2c2c2c !important;
   transition: 0.8s;
 }
+
+.footer-btn {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  transition: 0.8s;
+}
+
+.footer-btn:hover {
+  background: white;
+  color: #2c2c2c;
+  transition: 0.8s;
+}
