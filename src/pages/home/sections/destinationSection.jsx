@@ -20,7 +20,7 @@ class Destination extends React.Component {
     const { destinations } = this.state;
     return (
       <section className="py-5">
-        <div className="text-center container-fluid px-5 mb-5">
+        <div className="text-center container-fluid px-md-5 mb-5">
           <p className="small-text section-tag d-inline-block pb-1 px-3 mb-4">
             The Vision, Realised
           </p>

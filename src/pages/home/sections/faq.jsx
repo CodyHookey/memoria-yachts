@@ -1,6 +1,6 @@
 const FAQ = () => {
   return (
-    <section className="container-fluid px-5 py-5">
+    <section className="container-fluid px-md-5 py-5">
       <div className="text-center">
         <p className="small-text section-tag d-inline-block pb-1 px-3 mb-4">
           FAQ

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="container-fluid px-5 py-5 primary-bg">
+    <footer className="container-fluid px-md-5 py-5 primary-bg">
       <a
         className="navbar-brand fw-bold d-flex mb-4 align-items-center highlight-color justify-content-center justify-content-lg-start"
         href="#"

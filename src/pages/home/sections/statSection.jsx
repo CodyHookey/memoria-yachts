@@ -2,7 +2,7 @@ import ArrowIcon from "../../../assets/arrow.svg?react";
 
 const Stats = () => {
   return (
-    <section className="container-fluid px-5 py-5 custom-bg text-center">
+    <section className="container-fluid px-md-5 py-5 custom-bg text-center">
       <div className="text-center">
         <p className="small-text section-tag d-inline-block pb-1 px-3 mb-4">
           Why Choose Us

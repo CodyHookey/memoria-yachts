@@ -45,7 +45,7 @@ class PopularYachts extends React.Component {
     return (
       <section
         id="popular-yachts"
-        className="py-5 custom-bg container-fluid px-5 text-center"
+        className="py-5 custom-bg container-fluid px-md-5 text-center"
       >
         <p className="small-text section-tag d-inline-block pb-1 px-3 mb-4">
           Make Your Statement

@@ -2,7 +2,7 @@ import ArrowIcon from "../../../assets/arrow.svg?react";
 
 const CallToAction = () => {
   return (
-    <section id="call-to-action" className="container-fluid px-5 py-5">
+    <section id="call-to-action" className="container-fluid px-md-5 py-5">
       <div id="cta-bg" className="outer text-center text-white py-5">
         <h2 className="fw-bold mb-4">Begin Your Journey</h2>
         <p className="h4 px-5 mb-5">

@@ -29,7 +29,7 @@ class Testimonials extends React.Component {
     return (
       <section
         id="testimonials"
-        className="py-5 container-fluid px-5 text-center custom-bg"
+        className="py-5 container-fluid px-md-5 text-center custom-bg"
       >
         <p className="small-text section-tag d-inline-block pb-1 px-3 mb-4">
           Testimonials
