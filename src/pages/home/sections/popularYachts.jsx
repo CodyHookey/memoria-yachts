@@ -61,6 +61,7 @@ class PopularYachts extends React.Component {
                   alt=""
                   height={"386px"}
                   className="outer img-fluid mb-3"
+                  loading="lazy"
                 />
                 <h3 className="mb-0">{yacht.name}</h3>
                 <p className="small-text secondary-color">{yacht.make}</p>
