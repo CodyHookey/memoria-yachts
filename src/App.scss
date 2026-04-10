@@ -5,11 +5,13 @@
 }
 
 .frosted-glass {
+  position: relative;
+
   background: rgba(255, 255, 255, 0.14);
   backdrop-filter: blur(6px); /* slightly boosted for refraction */
   -webkit-backdrop-filter: blur(6px);
 
-  border: 0.1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.14);
 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
@@ -21,7 +23,7 @@
   border-radius: inherit;
   pointer-events: none;
 
-  padding: 0.7px;
+  padding: 1px;
 
   background: linear-gradient(
     150deg,
@@ -45,7 +47,7 @@
   border-radius: inherit;
   pointer-events: none;
 
-  padding: 0.6px;
+  padding: 1px;
 
   background: linear-gradient(
     330deg,
