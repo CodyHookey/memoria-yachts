@@ -18,6 +18,9 @@ class Destination extends React.Component {
 
   render() {
     const { destinations } = this.state;
+
+    const looped = [...destinations, ...destinations];
+
     return (
       <section className="py-5">
         <div className="text-center container-fluid px-md-5 mb-5">
@@ -27,40 +30,40 @@ class Destination extends React.Component {
           <h2 className="fw-bold mb-4">Destinations Without Limits</h2>
         </div>
         <div className="custom-carousel d-flex mb-5">
-          <div className="custom-group d-flex align-items-center justify-content-center">
-            {destinations.map((d) => {
+          <div className="track">
+            {looped.map((d, i) => {
               return (
                 <div
-                  className="custom-card-scroll p-4 d-flex justify-content-center align-items-center outer"
+                  className="custom-card-scroll p-4 d-flex me-3 justify-content-center align-items-center outer"
                   style={{
                     background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${d.image}) center/cover no-repeat`,
                     height: "545px",
                   }}
-                  key={d.name}
+                  key={i}
                 >
                   <p className="h2">{d.name}</p>
                 </div>
               );
             })}
-          </div>
-          <div
-            aria-hidden
-            className="custom-group d-flex align-items-center justify-content-center"
-          >
-            {destinations.map((d) => {
-              return (
-                <div
-                  className="custom-card-scroll p-4 d-flex justify-content-center align-items-center outer"
-                  style={{
-                    background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${d.image}) center/cover no-repeat`,
-                    height: "545px",
-                  }}
-                  key={d.name}
-                >
-                  <p className="h2">{d.name}</p>
-                </div>
-              );
-            })}
+            {/* <div
+              aria-hidden
+              className="custom-group d-flex align-items-center justify-content-center"
+            >
+              {destinations.map((d) => {
+                return (
+                  <div
+                    className="custom-card-scroll p-4 d-flex justify-content-center align-items-center outer"
+                    style={{
+                      background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${d.image}) center/cover no-repeat`,
+                      height: "545px",
+                    }}
+                    key={d.name}
+                  >
+                    <p className="h2">{d.name}</p>
+                  </div>
+                );
+              })}
+            </div> */}
           </div>
         </div>
         <button className="secondary-btn outer px-5 py-2 d-flex align-items-center justify-content-center mx-auto">

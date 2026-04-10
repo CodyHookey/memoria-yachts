@@ -126,20 +126,26 @@
 
 .custom-carousel {
   width: 100%;
-  overflow-x: auto;
+  overflow: hidden;
 }
 
 .custom-carousel::-webkit-scrollbar {
   display: none;
 }
 
+.track {
+  display: flex;
+  width: max-content;
+  animation: spin 40s linear infinite;
+  will-change: transform;
+}
+
 .custom-group {
   gap: 1em;
-  animation: spin 20s infinite linear;
   padding-right: 1em;
 }
 
-.custom-carousel:hover .custom-group {
+.custom-carousel:hover .track {
   animation-play-state: paused;
 }
 
@@ -162,7 +168,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
