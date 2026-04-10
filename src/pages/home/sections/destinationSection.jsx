@@ -45,25 +45,6 @@ class Destination extends React.Component {
                 </div>
               );
             })}
-            {/* <div
-              aria-hidden
-              className="custom-group d-flex align-items-center justify-content-center"
-            >
-              {destinations.map((d) => {
-                return (
-                  <div
-                    className="custom-card-scroll p-4 d-flex justify-content-center align-items-center outer"
-                    style={{
-                      background: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${d.image}) center/cover no-repeat`,
-                      height: "545px",
-                    }}
-                    key={d.name}
-                  >
-                    <p className="h2">{d.name}</p>
-                  </div>
-                );
-              })}
-            </div> */}
           </div>
         </div>
         <button className="secondary-btn outer px-5 py-2 d-flex align-items-center justify-content-center mx-auto">
